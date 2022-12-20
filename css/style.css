@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
+
+:root {
+    --black: #00000;
+    --darkGrey: #69707A;
+    --body: #f5f5f5;
+}
+
+body {
+    font-family: Raleway;
+    font-size: medium;
+    line-height: 1.7;
+}
+
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #f5f5f5;
+}
+
+.navbar li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar .btn {
+    border-radius: 20px;
+    background-color: #000000;
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar .btn:hover {
+    background-color: #f5f5f5;
+    color: #000000;
+}
+
+/* Main block */
+.hero {
+    background-image: url(../images/bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 650px;
+}
+
+.hero .row {
+    position: relative;
+}
+
+.hero h1 {
+    margin-top: 100px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-style: 20px;
+}
+/* 
+.social-hero .social-link  {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+}
+
+.social-hero .social-link:hover {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.icons-section {
+    display: inline-block;
+    height: 40%; 
+    width: 10%;
+    height: 11%; 
+    top: 68%; 
+    left: 95%; 
+    position: absolute;
+}
+
+.icons-section ul {
+    display: block;
+}
+
+.social li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.icon-link {
+    position: absolute;
+}
+
+#vertical-line {
+    width: 1px;
+    min-height: 400px;
+    background: #ffffff;
+    position: absolute;
+
+} */
+
+
+/*  About us section */
+.about-us-section {
+    margin-top: 40px;
+}
+
+.about-us-section h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 40px 0;
+}
+
+.about-us-section p {
+    text-align: center;
+    font-size: medium;
+}
+
+.advantages-text-section {
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 30px;
+}
+
+.advantages {
+    background-color: #f5f5f5;
+}
+
+.advantages-text-section h3 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 40px 0;
+}
+
+.advantages h6 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.advantages p {
+    text-align: left;
+}
+
+/* Achievements-section */
+
+.achievements-section {
+    background-color: #cfdff1;
+    padding-bottom: 40px;
+}
+
+.achievements-section h6 {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+/* our team section */
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.team-section p {
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 30px;
+}
+
+.team-section h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 40px 0;
+}
+
+/* Direction section */
+
+.direction {
+    display: inline-block;
+}
+
+.directions-sections {
+    background-color: #f5f5f5;
+    color: #000;
+    padding: 30px 0 50px 0;
+}
+
+.directions-sections h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.directions-sections h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 40px 0;
+}
+
+.btn-dir {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn-dir:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+/* portfolio section */
+
+.portfolio-section {
+    margin: 50px;
+    padding-top: 40px;
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* .carousel {
+    margin-top: 50px;
+} */
+.carousel-caption {
+    margin-top: 70px;
+    color: #000;
+    top: 50%;
+}
+
+.img-item img{
+    max-width: 300px;
+    height: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+/* Footer */
+.footer {
+    background-color: #f5f5f5;
+    height: 20vh;
+    padding: 30px 0 0 0;
+}
+
+.footer img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.social .social-link  {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+}
+
+.social .social-link:hover {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.footer .row {
+    text-align: center;
+}
