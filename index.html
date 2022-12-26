@@ -5,12 +5,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Raleway font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,43 +18,37 @@
     <script src="https://kit.fontawesome.com/0571020acb.js" crossorigin="anonymous"></script>
 
     <title>Profi Comm</title>
+    <link rel="shortcut icon" href="images/logo-nobg1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-
-    <!-- NAV BAR -->
+<body data-i18n="[html]content.body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand col-2 mx-auto" href="#hero">
+            <img src="images/logo-nobg2.png" height="36px">
+        </a>
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="profi Comm">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#hero">ГЛАВНАЯ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-us">O НАС</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#advantages">ДОСТИЖЕНИЯ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#our-team">НАША КОМАНДА</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#directions-section">НАПРАВЛЕНИЯ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">ПОРТФОЛИО</a>
-                    </li>
-                    <button class="btn">Связаться с нами</button>
-                </ul>
-
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link active" href="#hero" key="Главная">Главная <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#about-us">O нас</a>
+                    <a class="nav-item nav-link" href="#expertise">Наша экспертиза</a>
+                    <a class="nav-item nav-link" href="#directions-section">Направления работы</a>
+                    <a class="nav-item nav-link" href="#our-team">Команда</a>
+                    <a class="nav-item nav-link" href="#achievements">Достижения</a>
+                    <a class="nav-item nav-link" href="#portfolio">Наши клиенты</a>
+                    <a class="nav-item nav-link" href="#footer">Наши контакты</a>
+                    <a class="nav-item nav-link" href="?lng=en" translated>EN</a>
+                    <a class="nav-item nav-link" href="?lng=ru" translated>RU</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -65,21 +56,16 @@
     <!-- MAIN BLOCK -->
     <div class="hero" id="hero">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <h1 class=" display-4 text-white">PRofi - коммуникационное агентство. <br>
-                        Мы больше чем PR.</h1>
-                    <p class="text-white">Помимо бизнес и коммуникационных стратегий мы также работаем с личными
-                        брендами, занимаемся комьюнити менеджментом, сопровождаем ивенты и спецпроекты, разрабатываем
-                        политики корпоративной социальной ответственности.</p>
+            <div class="row mt-4">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h1 class="heading display-4 ">PRofiComm – Ваш надежный партнер по развитию в эпоху цифровой
+                        трансформации и digital коммуникаций!</h1>
+                    <p class="heading-md">Мы - проводники в цифровую эпоху по формату One-Stop Consulting Shop –
+                        в одной точке полная экспертиза с индивидуальной разработкой экосистемных цифровых бизнес
+                        моделей вашей трансформации и менеджмента общественного мнения.</p>
                 </div>
-
-                <!-- <div class="verticle-line line-1"></div>
-                <div class="icons-section social-hero">
-                    <a href="#" class="social-link-hero"><i class="fa fa-facebook-f"></i></a>
-                    <a href="#" class="social-link-hero"><i class="fa fa-linkedin"></i>
+                <div class="image-back col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 </div>
-                <div class="vertical-line line-2"></div> -->
             </div>
         </div>
     </div>
@@ -87,52 +73,112 @@
     <!--  About us -->
     <section class="about-us-section container" id="about-us">
         <h2>О нас</h2>
-        <p>PRofiCom - консалтинговое агентство в области стратегических, интегрированных коммуникаций (маркетинговые, PR
-            , рекламные), а также в сфере new media (цифровые, SMM). Помимо бизнес и коммуникационных стратегий мы также
-            работаем с личными брендами, занимаемся комьюнити менеджментом, сопровождаем ивенты и спецпроекты,
-            разрабатываем политики корпоративной социальной ответственности.
-            Новые компетенции агентства – с 2021 годf экспертиза в направлениях: цифровая трансформация бизнеса,
-            сопровождение IT решений и стартапов, цифровые воронки продаж, разработка целеполагания и постановка бизнес
-            процессов, картирование бизнес стратегий.
-            Пиар агентство учреждено 5 апреля 2017 года.</p>
-    </section>
-
-
-    <!-- Advantages section -->
-    <section class="advantages-text-section container">
-        <h3>Наши преимущества</h3>
-        <p>Кросс-функциональная экспертиза ( PR, маркетинг, цифровая трансформация, IT экспертиза) - уникальный подход к
-            решению стратегических и тактических задач клиента. <br>
-            <b>Бизнес модель агентства - от «Готовый продукт-Клиент» к « точка боли Клиента – комплексное РЕШЕНИЕ»</b>
-            <br>
-            Мы – больше, чем PR!
-            Комплексное решение от «точек боли» Клиента
+        <p>Консалтинговое агентство с международной экспертизой в областях - стратегические коммуникации и цифровой
+            трансформации.<b>Мы - проводники в цифровую эпоху по формату One-Stop Consulting Shop – в одной точке полная экспертиза с
+                индивидуальной разработкой экосистемных цифровых бизнес моделей вашей трансформации и менеджмента
+                общественного мнения.<br>
+                PRofiComm – Ваш надежный партнер по развитию в эпоху цифровой трансформации и digital коммуникаций! </b>
         </p>
+        <p>Помимо цифровых бизнес и PR стратегий, управления репутацией брендов компаний, мы также работаем с личными
+            брендами, занимаемся community менеджментом, работой со СМИ, сопровождаем мероприятия и спецпроекты,
+            разрабатываем политики корпоративной социальной ответственности и проводим тренинги. <br>
+            У нас вы можете заказать как стратегии с реализацией «под ключ», так и отдельные компоненты для
+            трансформации и продвижения себя, своего бизнеса или организации.
+        </p>
+        <hr>
     </section>
 
-    <!-- Achievements section -->
-    <section class="advantages" id="advantages">
-        <div class="px-5 py-5">
+
+    <!-- Expertise section -->
+    <section class="expertise-text-section container" id="expertise">
+        <h3>Наша экспертиза</h3>
+        <h6>Доверяйте не рекламе, а экспертизе.</h6>
+    </section>
+    <div class="background-class-expertise">
+        <div class="columns-text-expertise container">
             <div class="row">
-                <div class="col mx-1">
-                    <h6>30+</h6>
-                    <p>создание и реализация информационных кампаний</p>
+                <div class="col-6">
+                    <p><b>Экспертиза по созданию и реализации цифровых бизнес стратегий </b> подтверждена как
+                        теоретическими
+                        знаниями на уровне бизнес школ мирового уровня – Harvard Business School, pre-MBA международных
+                        программ
+                        повышения квалификации.
+                        Так и опытом работы национальной команды в данном направлении в донорских проектах, на
+                        государственном
+                        уровне, с бизнес-сектором свыше 10 лет.</p>
                 </div>
-                <div class="col mx-1">
-                    <h6>35%</h6>
-                    <p>из проектов оказана консалтинговая поддержка при реализации стратегий с погружением в бизнес</p>
+                <div class="col-6">
+                    <p><b>Экспертиза по стратегическим коммуникациям </b> подтверждена профильным образованием ключевой
+                        национальной команды, опытом работы в данном направлении на уровне международных компаний и
+                        проектов – более
+                        20 лет.</p>
                 </div>
-                <div class="col mx-1">
-                    <h6>7</h6>
-                    <p>публичным лицам оказаны услуги личного брендинга </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="continued-expertise-text container">
+        <p>Мы также работаем с международными экспертами в рамках налаженного партнерства и при необходимости совместно
+            реализуем проекты для наших клиентов.
+            Бизнес-модель агентства - комплексное решение от точек боли клиента. Мы – больше, чем PR.
+            Кросс-функциональная экспертиза – наш уникальный подход к решению стратегических и тактических задач наших
+            клиентов в digital эпоху.
+            Мы также работаем с международными экспертами в рамках налаженного партнерства и при необходимости совместно
+            реализуем проекты для наших клиентов.
+            Бизнес-модель агентства - комплексное решение от точек боли клиента. Мы – больше, чем PR.
+            Кросс-функциональная экспертиза – наш уникальный подход к решению стратегических и тактических задач наших
+            клиентов в digital эпоху.</p>
+    </div>
+
+    <!-- Directions Section -->
+    <section class="directions-sections" id="directions-section">
+        <div class="container">
+            <h2>Направления</h2>
+            <div class="row">
+                <div class="direction first col">
+                    <h4>Стратегические коммуникации</h4>
+                    <h6>Стратегические задачи: Цифровые бизнес и коммуникационные стратегии (личный брендинг, в
+                        частности)</h6>
+                    <ul>
+                        <li>Антикризисные стратегии</li>
+                        <li>Постановка процессов внутренних и внешних коммуникаций</li>
+                        <li>Политический PR</li>
+                        <li>Сопровождение IT проектов и запуск стартапов</li>
+                        <li>Цифровые воронки продаж</li>
+                    </ul>
+                    <h6>Тактические задачи:</h6>
+                    <ul>
+                        <li>Работа со СМИ, блогерами и лидерами мнений</li>
+                        <li>Подготовка различных презентационных материалов</li>
+                        <li>Копирайтинг (интервью, спичи, статьи, релизы)</li>
+                        <li>Ведение страниц в социальных сетях</li>
+                        <li>Создание мультимедийного контента (ролики, вайны, видео интервью и т.д.)</li>
+                        <li>Тренинги по PR</li>
+                    </ul>
+                    <button class="btn btn-dir">Связаться с нами</button>
                 </div>
-                <div class="col smx-1">
-                    <h6>5</h6>
-                    <p>брендам оказаны услуги консалтинга по запуску стартапов, бизнес картирование</p>
-                </div>
-                <div class="col mx-1">
-                    <h6>3</h6>
-                    <p>брендам оказаны услуги консалтинга по запуску стартапов, бизнес картирование</p>
+                <div class="direction second col">
+
+
+                    <h4>Цифровая трансформации</h4>
+                    <h6> Стратегические задачи:</h6>
+                    <ul>
+                        <li>Оценка цифровой зрелости</li>
+                        <li>Цифровые стратегии и стратегии управления изменениями</li>
+                        <li>Индивидуальная разработка архитектуры цифровой инфраструктуры и решений (от автоматизации до
+                            цифровизации)</li>
+                        <li>Разработка систем управления кибербезопасности</li>
+                    </ul>
+
+                    <h6>Тактические задачи:</h6>
+                    <ul>
+                        <li>Разработка регламентирующих политик, под-политик и инструкций</li>
+                        <li>Развертывание цифровой инфраструктуры и решений (доработка и интеграция действующий решений)
+                        </li>
+                        <li>Разработка решений по автоматизации процессов</li>
+                        <li>Сопровождение цифровой инфраструктуры и решений</li>
+                    </ul>
+                    <button class="btn btn-dir">Связаться с нами</button>
                 </div>
             </div>
         </div>
@@ -141,22 +187,16 @@
     <!-- Our team section -->
     <section class="team-section container" id="our-team">
         <h2>Наша команда</h2>
-        <p>PRofiCom - консалтинговое агентство в области стратегических, интегрированных коммуникаций (маркетинговые, PR
-            , рекламные), а также в сфере new media (цифровые, SMM). Помимо бизнес и коммуникационных стратегий мы также
-            работаем с личными брендами, занимаемся комьюнити
-            менеджментом, сопровождаем ивенты и спецпроекты, разрабатываем политики корпоративной социальной
-            ответственности.</p>
-
 
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center justify-content-center">
                 <!-- Team item -->
-                <div class="col-xl-3 col-sm-6 mb-5">
+                <div class="col-xl-3 col-sm-6 mb-5 ">
                     <div class="bg-white rounded shadow-sm py-5 px-4"><img
-                            src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt="" width="100"
+                            src="images/photo-ceo.jpeg" alt="" width="100"
                             class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Manuella Nevoresky</h5><span class="small text-uppercase text-muted">CEO -
-                            Founder</span>
+                        <h5 class="mb-0">Татьяна Шахин</h5>
+                        <span class="small text-uppercase text-muted">Основатель и СЕО</span>
                         <ul class="social mb-0 list-inline mt-3">
                             <li class="list-inline-item"><a href="#" class="social-link"><i
                                         class="fa fa-facebook-f"></i></a></li>
@@ -166,158 +206,155 @@
                     </div>
                 </div><!-- End -->
 
-                <!-- Team item -->
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white rounded shadow-sm py-5 px-4"><img
-                            src="https://bootstrapious.com/i/snippets/sn-team/teacher-2.jpg" alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Samuel Hardy</h5><span class="small text-uppercase text-muted">CEO -
-                            Founder</span>
-                        <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item"><a href="#" class="social-link"><i
-                                        class="fa fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item"><a href="#" class="social-link"><i
-                                        class="fa fa-linkedin"></i></a></li>
-                        </ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5> Направление по стратегическим коммуникациям</h5>
+                            <ul>
+                                <li>Александра Багдасарова – эксперт по стратегическим коммуникациям</li>
+                                <li>Оксана Полякова – PR эксперт </li>
+                                <li>Инна Кохлевская – smm эксперт</li>
+                                <li>Эрмек Токольдошев – digital маркетолог и CEO-эксперт</li>
+                                <li>Аселя Куттубай – эксперт по маркетингу</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5>Направление по цифровой трансформации (Agile team партнеров)</h5>
+                            <ul>
+                                <li>Айнура Джороева – международные институты развития, цифровая трансформация</li>
+                                <li>Кубаныч Закенаев – системы управления, кибербезопасность, CISM, CISSM, ISO 27001
+                                    LI/LA/IA, ISO 9001 MG/IA</li>
+                                <li>Азимбек Сагынбаев – product менеджмент, разработка ПО, блокчейн, финтех</li>
+                                <li>Тимур Алхожоев – юрист в области цифровых технологий</li>
+                            </ul>
+                        </div>
                     </div>
-                </div><!-- End -->
-
-                <!-- Team item -->
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white rounded shadow-sm py-5 px-4"><img
-                            src="https://bootstrapious.com/i/snippets/sn-team/teacher-1.jpg" alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO -
-                            Founder</span>
-                        <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item"><a href="#" class="social-link"><i
-                                        class="fa fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item"><a href="#" class="social-link"><i
-                                        class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div><!-- End -->
-
-                <!-- Team item -->
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white rounded shadow-sm py-5 px-4"><img
-                            src="https://bootstrapious.com/i/snippets/sn-team/teacher-7.jpg" alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">John Tarly</h5><span class="small text-uppercase text-muted">CEO -
-                            Founder</span>
-                        <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item"><a href="#" class="social-link"><i
-                                        class="fa fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item"><a href="#" class="social-link"><i
-                                        class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div><!-- End -->
+                </div>
             </div>
         </div>
     </section>
 
-
-    <section class="directions-sections" id="directions-section">
-        <div class="container">
-            <h2>Направления</h2>
+    <!-- Achievements section -->
+    <section class="achievements-section" id="advantages">
+        <div class="px-5 py-5">
             <div class="row">
-                <div class="direction first col">
-                    <h4>Стратегические</h4>
-                    <ul>
-                        <li>Коммуникационные стратегии (личный брендинг в частности)</li>
-                        <li>Стратегии цифровой трансформации и бизнес стратегии 2.0</li>
-                        <li>Антикризисные стратегии</li>
-                        <li>Постановка процессов внутренних и внешних коммуникаций</li>
-                        <li>Политический PR</li>
-                    </ul>
-                    <button class="btn btn-dir">Связаться с нами</button>
+                <div class="col mx-1">
+                    <h6>37</h6>
+                    <p>была оказана разработка коммуникационных стратегией с поддержкой информационных кампаний</p>
                 </div>
-                <div class="direction second col">
-                    <h4>Тактические</h4>
-                    <ul>
-                        <li>Работа со СМИ, блогерами и лидерами мнений</li>
-                        <li>Подготовка различных презентационных материалов</li>
-                        <li>Копирайтинг ( интервью, спичи, статьи, релизы)</li>
-                        <li>Ведение страниц в социальных сетях</li>
-                        <li>Создание мультимедийного контента (ролики, выйны, видео итд)</li>
-                    </ul>
-                    <button class="btn btn-dir">Связаться с нами</button>
+                <div class="col mx-1">
+                    <h6>18</h6>
+                    <p>брендам созданы бизнес стратегии (актуализация, картирование, новые точки роста) с внедрением современных решений</p>
+                </div>
+                <div class="col mx-1">
+                    <h6>4</h6>
+                    <p>Запущено компаний, разработаны цифровые стратегий/трансформации брендов. Направление запущено с 2021 года</p>
+                </div>
+                <div class="col smx-1">
+                    <h6>11</h6>
+                    <p>публичным персонам оказаны услуги продвижения личного брендинга</p>
+                </div>
+                <div class="col mx-1">
+                    <h6>3</h6>
+                    <p>Разработано стратегий с дорожной картой цифровой трансформации для государственного сектора (в составе рабочих групп)</p>
+                </div>
+                <div class="col mx-1">
+                    <h6>10</h6>
+                    <p>Разработано тактик антикризисных кампаний с поддержкой продвижения</p>
+                </div>
+                <div class="col mx-1">
+                    <h6>16</h6>
+                    <p>индивидуально разработанных тренингов проведены(3 тренинга для политических партий при поддержке Представительства Международного Республиканского Института)</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio ДОДЕЛАТЬ-->
+    
+
+    <!-- Portfolio-->
     <section class="portfolio-section" id="portfolio">
-        <h2>Портфолио</h2>
+        <h2>Наши клиенты</h2>
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="carousel-caption">
-                        <h5>EU programmes 4Q2020-2021 – до передачи в новое ГП -Информационная кампания для СМЭВ
-                            «Түндүк»</h5>
-                        <p>Реализация информационной кампании о центре электронного взаимодействия в регионах страны и
-                            для молодежи. Актуализация текстов на сайте. Используются SM каналы, СМИ, блогеры,
-                            продвижение в спец проектах.
-                            <br> Ссылки на контент (с декабря 2020 г.):
-                            <a href="https://www.facebook.com/tunduk.gov.kg/">
-                                <p>https://www.facebook.com/tunduk.gov.kg/</p>
-                            </a>
-                            <a href="https://www.instagram.com/tunduk_office/">
-                                <p>https://www.instagram.com/tunduk_office/</p>
-                            </a>
-                            <a href="www.tunduk.gov.kg">
-                                <p>www.tunduk.gov.kg</p>
-                            </a>
-                            вайны\блогеры <a href="https://www.facebook.com/watch/?v=302321884754282">
-                                <p>https://www.facebook.com/watch/?v=302321884754282</p>
-                            </a>
-                        </p>
+                        <h5>Государственные органы</h5>
+                        <ol>
+                            <li> Министерство цифрового развития</li>
+                            <li>Государственный комитет информационных технологий и связи</li>
+                            <li> Министерство экономики КР</li>
+                            <li>Центры гражданского и цифрового образования КР при ЦИК КР</li>
+                            <li>ЦЭВ «Тундук»</li>
+                            <li>Агентство по защите персональных данных при Кабинете Министров КР</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-caption d-md-block">
-                        <h5>2Q2021/ 3Q2021 – BSK Capital Group (строительный сектор).
-                            Ведение антикризисной кампании.</h5>
-                        <p>Cоздание стратегии антикризисной кампании, работа со СМИ, информационное сопровождение,
-                            скрипты для внутренних коммуникаций и переговоров с государственными органами.
-                            Отработано 2 кампании. <br>
-                            Ссылки на контент:
-                            <a
-                                href=" https://24.kg/biznes_info/186537_BSK_sapital_Group_razyyasnyaet_detali_stroitelstva_nauchastke_v6-m_mikrorayone/">
-                                <p> https://24.kg/biznes_info/186537_BSK_sapital_Group_razyyasnyaet_detali_stroitelstva_nauchastke_v6-m_mikrorayone/
-                                </p>
-                            </a>
-                            <a
-                                href="https://kaktus.media/doc/433452_jiteli_6_go_mkr._vyshli_na_miting._bsk_capital_group_opiat_pytaetsia_zastroit_ih_pole.html">
-                                <p>https://kaktus.media/doc/433452_jiteli_6_go_mkr._vyshli_na_miting._bsk_capital_group_opiat_pytaetsia_zastroit_ih_pole.html
-                                </p>
-                            </a>
-                            <a
-                                href="https://24.kg/obschestvo/212055_stroitelstvo_vnbspparke_imeni_atatyurka_kompaniya_utverjdaet_chto_nichego_nenbspstroit/">
-                                <p>https://24.kg/obschestvo/212055_stroitelstvo_vnbspparke_imeni_atatyurka_kompaniya_utverjdaet_chto_nichego_nenbspstroit/
-                                </p>
-                            </a>
-                        </p>
+                        <h5>Национальные компании и организации</h5>
+                        <ol>
+                            <li>Международный деловой совет</li>
+                            <li>Союз банков КР</li>
+                            <li>Alkanov group</li>
+                            <li>BSK Capital Group</li>
+                            <li> Partner компания комлексного строительства</li>
+                            <li>CK Элит Хаус</li>
+                            <li>СК Альфа девелопмент</li>
+                            <li>Asian Med Trade</li>
+                            <li>Novotel</li>
+                            <li>Компания Оптифуд</li>
+                        </ol>                        
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="carousel-caption d-md-block">
-                        <div class="img-item">
-                            <img src="images/certificate.png" alt="">
-                        </div>
 
-                        <h5>Администрация Президента КР, Кабинет Министров КР </h5>
-                        <p> 2021 г – поддержка проведения пресс конференции Президента КР для представителей
-                            кыргызстанских и международных СМИ.
-                            Создание концепта мероприятия, помощь в визуализации и проведении ивента. <br>
-                            2021 г - поддержка проведения республиканского совещания руководителей государственных
-                            органов и органов местного самоуправления КР.
-                            Создание концепта мероприятия, креативного формата проведения с использованием цифровых
-                            технологий.
-                        </p>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Национальные компании и организации</h5>
+                        <ol>
+                            <li>СК Имарат строй</li>
+                            <li>CК «Альфа Строй»</li>
+                            <li>Холдинг «Канагат Инвест»</li>
+                            <li>«АманБанк»</li>
+                            <li>«Бакай банк»</li>
+                            <li>BTI фонд инноваций</li>
+                            <li>Компания «Агросервис»</li>
+                            <li>«La sposa»</li>
+                            <li>Медиа группа «вечерний Бишкек» и «Рубикон»</li>
+                            <li>ОЮЛ «Союз местных самоуправлений КР»</li>
+                            <li>Кыргыз текстиль Лтд</li>
+                            <li>ОсОО «РФ Рубикон»</li>
+                        </ol>                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Консалтинг/эксперты в донорских проектах</h5>
+                        <ol>
+                            <li>Проект ПРООН в КР «Сильная парламентская демократия при активном участии граждан» (в консорциуме)</li>
+                            <li>Проект ПРООН в КР и ОЮЛ «Союз совместных самоуправлений в КР»</li>
+                            <li>Проект ПРООН в КР «Цифровые навыки и возможности для задействования молодежи в цифровой экономике КР»</li>
+                            <li>Проект АБР в КР «Присоединение к Евразийскому экономическому союзу – возможности и устранение рисков»</li>
+                            <li>Проекта ОБСЕ в КР «Содействие в реализации Государственной стратегии антикоррупционной политики и продвижении цифровой трансформации»</li>
+                            <li>Проект ОБСЕ в КР «Содействие в противодействии коррупции и продвижении цифровой трансформации»</li>
+                            <li>DT Global Idev Europe S.L. «Продвижение e-Правительства»</li>
+                            <li>Представительство Международного Республиканского Института</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Международные компании и организации</h5>
+                        <ol>
+                            <li>MyDataCoin - казахстанский разработчик и провайдер блокчейн экосистемы токенизации персданных</li>
+                            <li>СК VILAR - первый девелопер с международной экспертизой</li>
+                            <li>Kanda СA – IT компания</li>
+                            <li>Financial House Limited, UK – (в составе консорциума) – Europes1000 Fastest - Growing Companies by the Financial Times and Statista</li>
+                            <li>Представительство Uniliver в КР (Экспо трейд)</li>
+                            <li>Посольство Венгрии в КР</li>
+                        </ol>
                     </div>
                 </div>
             </div>
@@ -332,7 +369,9 @@
         </div>
     </section>
 
-    <section class="footer">
+
+    
+    <section class="footer" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-4"><img src="images/logo.png" alt=""></div>
@@ -346,23 +385,25 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                    <p>+996 000 00 00 00</p>
-                    <p>info@proficomm.com</p>
+                    <p>Электронная почта: profi.bishkek@gmail.com</p>
+                    <p>Телефон: +996 775 971 444</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <script src="https://unpkg.com/i18nextify@^3.2.1" id="i18nextify" fallbacklng="en"></script>
+    
+    <script src="https://unpkg.com/i18nextify@^3.2.1" id="i18nextify" fallbacklng="ru"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
 </body>
-
-</html
+</html>

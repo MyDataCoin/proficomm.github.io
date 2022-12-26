@@ -1,0 +1,12 @@
+@media (min-width: 992px) { 
+    .navbar a {
+        margin-right: 10px;
+        font-size: 12px;
+      }
+}
+@media (min-width: 1200px) { 
+    .navbar a {
+      margin-right: 10px;
+      font-size: 14px;
+    }
+}
