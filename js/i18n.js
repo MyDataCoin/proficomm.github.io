@@ -23,8 +23,8 @@ i18n
       escapeValue: false
     },
   backend: {
-      loadPath: "/<https://bermetbakyt.github.io>/locales/{{ru}}/{{translation}}.json",
-      loadPath: "/<https://bermetbakyt.github.io>/locales/{{en}}/{{translation}}.json"
+      loadPath: "/./locales/en/translation.json",
+      loadPath: "/./locales/ru/translation.json"
   }
 })
 
