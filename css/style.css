@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --black: #00000;
     --darkGrey: #69707A;
@@ -18,7 +23,6 @@ body {
 }
 
 .navbar {
-
     color: #fff;
     font-weight: 600;
 }
@@ -32,27 +36,26 @@ body {
 
 .navbar-nav .active {
     font-size: 14px;
-    color: #55595c;
+    color: #06335C;
     font-weight: 600;
 }
 
 .navbar-nav a:hover {
-    color: #69707A;
+    color: #06335C;
     font-weight: 600;
+    background-color: none;
 }
-
 
 /* Main block */
 .image-back {
-    background-image: url('../images/bg-hero.png');
+    background-image: url('../images/bg-hero.svg');
     display: block;
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
     width: 500px;
-    height: 500px;
-}
 
+}
 
 .headers {
     display: inline-block;
@@ -84,7 +87,7 @@ body {
 
 /*  About us section */
 .about-us-section {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .about-us-section h2 {
@@ -192,10 +195,28 @@ body {
     margin: 40px 0;
 }
 
+.team-section {
+    margin-bottom: 30px;
+}
+
 /* Direction section */
 
 .direction {
     display: inline-block;
+    margin: 15px 0;
+}
+
+.direction ul {
+    margin: 15px 0;
+}
+
+.direction .btn-second {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.direction .btn {
+    margin-left: 30px;
 }
 
 .directions-sections {

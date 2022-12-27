@@ -1,12 +1,19 @@
-@media (min-width: 992px) { 
+@media (min-width: 1035px) { 
     .navbar a {
-        margin-right: 10px;
+        padding: 0;
         font-size: 12px;
       }
+      .navbar-brand img {
+        margin: 0;
+      }
+      .navbar .navbar-brand {
+        margin: 0;
+        padding: 0;
+      }
+
 }
 @media (min-width: 1200px) { 
     .navbar a {
-      margin-right: 10px;
       font-size: 14px;
     }
 }

@@ -21,7 +21,11 @@ i18n
     },
     interpolation: {
       escapeValue: false
-    }
-  })
+    },
+  backend: {
+      loadPath: "/<bermetbakyt.github.io/proficommunications.github.io>/locales/{{ru}}/{{translation}}.json",
+      loadPath: "/<bermetbakyt.github.io/proficommunications.github.io>/locales/{{en}}/{{translation}}.json"
+  }
+})
 
 export default i18n;
