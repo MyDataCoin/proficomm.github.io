@@ -23,8 +23,8 @@ i18n
       escapeValue: false
     },
   backend: {
-    loadpath:'/proficommunications.github.io>/locales/en/{{translation}}.json',
-      loadPath: '/proficommunications.github.io>/locales/ru/{{translation}}.json'
+    loadpath:'/https://bermetbakyt.github.io/>/locales/en/{{translation}}.json',
+      loadPath: '/https://bermetbakyt.github.io/>/locales/ru/{{translation}}.json'
   }
 })
 
