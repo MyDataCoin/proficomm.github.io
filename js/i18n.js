@@ -24,7 +24,7 @@ i18n
     },
   backend: {
     loadpath:'/https://bermetbakyt.github.io/>/locales/en/translation.json',
-      loadPath: '/https://bermetbakyt.github.io/>/locales/ru/translation.json'
+      loadPath: '/locales/ru/translation.json'
   }
 })
 
