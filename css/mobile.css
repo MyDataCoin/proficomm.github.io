@@ -1,4 +1,64 @@
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
+   body {
+    font-size: 10px;
+   }
+   h1, h2, h3, h4, h5 ,h6 {
+    font-size: 20px;
+   }
    
-}
+   .portfolio-section h2 {
+    font-size: 15px;
+   }
+   .about-us-section h2 {
+    font-size: 15px;
+   }
+   .expertise-text-section h3 {
+    font-size: 15px;
+   }
+ 
 
+   .carousel-inner {
+    height: 600px;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+
+    .footer .row {
+        margin-top: 15px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+
+    .footer .col-4 {
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    .footer .image-block {
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    .footer .social {
+        line-height: parent;
+    }
+
+    .directions-section h2 {
+    font-size: 15px;
+   }
+}
+@media screen and (min-width: 768px) {
+    .carousel-containers {
+      padding: 1.5em 0;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .container {
+      max-width: 930px;
+    }
+  }
