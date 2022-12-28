@@ -23,8 +23,8 @@ i18n
       escapeValue: false
     },
   backend: {
-    loadpath:'../locales/en/translation.json',
-      loadPath: '../locales/ru/translation.json'
+    loadpath:'/locales/{{en}}/{{translation}}.json',
+      loadPath: '/locales/ru/{{translation}}.json'
   }
 })
 
