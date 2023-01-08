@@ -17,3 +17,28 @@ ReactDOM.render (
 );
 
 serviceWorker.unregister();
+
+let mybutton = document.getElementById("btn-back-to-top");
+if (jQuery('#btn-back-to-top').length) {
+  var scrollTrigger = 100, // px
+      backToTop = function () {
+          var scrollTop = jQuery(window).scrollTop();
+          if (scrollTop > scrollTrigger) {
+              jQuery('#btn-back-to-top').addClass('show');
+          } else {
+              jQuery('#btn-back-to-top').removeClass('show');
+          }
+      };
+  backToTop();
+  jQuery(window).on('scroll', function () {
+      backToTop();
+  });
+  jQuery('#btn-back-to-top').on('click', function (e) {
+      e.preventDefault();
+     jQuery('html,body').animate({
+          scrollTop: 0
+      }, 700);
+  });
+}
+
+

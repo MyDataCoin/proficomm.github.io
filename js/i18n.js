@@ -22,10 +22,10 @@ i18n
     interpolation: {
       escapeValue: false
     },
-  backend: {
-    loadpath:'bermetbakyt.github.io/proficommunications.github.io/locales/{{en}}/{{translation}}.json',
-    loadPath: 'bermetbakyt.github.io/proficommunications.github.io/locales/{{ru}}/{{translation}}.json'
-  }
+  // backend: {
+  //   loadpath:'bermetbakyt.github.io/proficommunications.github.io/locales/{{en}}/{{translation}}.json',
+  //   loadPath: 'bermetbakyt.github.io/proficommunications.github.io/locales/{{ru}}/{{translation}}.json'
+  // }
 })
 
 export default i18n;
