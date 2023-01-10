@@ -41,4 +41,3 @@ if (jQuery('#btn-back-to-top').length) {
   });
 }
 
-
