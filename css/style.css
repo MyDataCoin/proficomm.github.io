@@ -80,12 +80,11 @@ body {
 
 /* Main block */
 .hero-back {
-    background-image: url('../images/bg-3.jpg');
+    background-image: url('../images/back-image.jpg');
     display: block;
     background-size: cover;
     position: relative;
-    height: 550px;
-    
+    min-height: 600px;    
 }
 
 .heading {
